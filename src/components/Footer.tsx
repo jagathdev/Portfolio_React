@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
                         <ul className="space-y-4">
                             <li className="flex items-start space-x-3 text-gray-600 dark:text-slate-400">
                                 <FiMapPin className="mt-1 text-indigo-600 dark:text-indigo-400 shrink-0" />
-                                <span>Chennai, Ashok Nagar</span>
+                                <span>Chennai, KK Nagar</span>
                             </li>
                             <li className="flex items-center space-x-3 text-gray-600 dark:text-slate-400">
                                 <FiMail className="text-indigo-600 dark:text-indigo-400 shrink-0" />
