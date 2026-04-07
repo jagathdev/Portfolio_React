@@ -10,6 +10,13 @@ const experiences = [
         description: 'Assisted in developing scalable MERN applications at Venticinque Aeyon Groupe. Delivered tasks on time, maintained code quality, and collaborated with the dev team remotely.',
         tags: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Remote'],
     },
+    {
+        role: 'React Developer Intern',
+        company: 'Ailaysa Technologies Pvt Ltd',
+        period: 'Feb 2026 - Mar 2026',
+        description: 'Worked on scalable MERN applications using React.js and REST APIs. Contributed to UI development, API integration, and maintained clean, efficient code while collaborating with the development team.',
+        tags: ['React', 'Tawilwind css', 'Rest API', 'Git', 'Onsite'],
+    },
 ];
 
 const Internship: React.FC = () => {

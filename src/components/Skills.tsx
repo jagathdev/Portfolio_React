@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaBootstrap, FaRocket, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub } from 'react-icons/fa';
-import { SiTypescript, SiTailwindcss, SiJavascript, SiExpress, SiNextdotjs, SiMongodb, SiCanva } from 'react-icons/si';
+import { SiTypescript, SiTailwindcss, SiJavascript, SiExpress, SiNextdotjs, SiMongodb, SiCanva, SiMui } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 
 const skillCategories = [
@@ -18,6 +18,7 @@ const skillCategories = [
             { name: 'Node.js', icon: <FaNodeJs size={32} className="text-[#339933]" /> },
             { name: 'Express.js', icon: <SiExpress size={32} className="text-gray-500 dark:text-gray-300" /> },
             { name: 'MongoDB', icon: <SiMongodb size={32} className="text-[#47A248]" /> },
+            { name: 'Metirial UI ', icon: <SiMui size={32} className="text-[#47A248]" /> },
         ]
     },
     {
@@ -36,7 +37,7 @@ const skillCategories = [
         description: "Focus areas for growth.",
         skills: [
             { name: 'TypeScript', icon: <SiTypescript size={32} className="text-[#3178C6]" />, level: 'Basics' },
-            { name: 'Next.js', icon: <SiNextdotjs size={32} className="text-black dark:text-white" />, level: 'Basics' },
+            // { name: 'Next.js', icon: <SiNextdotjs size={32} className="text-black dark:text-white" />, level: 'Basics' },
         ]
     }
 ];
