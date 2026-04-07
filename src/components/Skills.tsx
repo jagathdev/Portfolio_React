@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs, FaBootstrap, FaRocket, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub } from 'react-icons/fa';
-import { SiTypescript, SiTailwindcss, SiJavascript, SiExpress, SiNextdotjs, SiMongodb, SiCanva, SiMui } from 'react-icons/si';
+import { SiTypescript, SiTailwindcss, SiJavascript, SiExpress, SiMongodb, SiCanva, SiMui } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 
 const skillCategories = [
