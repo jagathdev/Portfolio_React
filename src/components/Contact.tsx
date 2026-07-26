@@ -150,66 +150,48 @@ const Contact: React.FC = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="bg-white/80 dark:bg-slate-800/80 backdrop-blur-xl p-8 md:p-10 rounded-3xl shadow-2xl border border-white/20 dark:border-slate-700/50"
+                        className="bg-[#1e2333] p-8 md:p-10 rounded-2xl shadow-xl border border-[#2a3246]/50"
                     >
                         <form onSubmit={handleSubmit} className="space-y-6">
-                            <div className="relative group">
+                            <div>
                                 <input
                                     type="text"
                                     id="name"
                                     required
                                     value={formState.name}
                                     onChange={handleChange}
-                                    className="peer w-full px-5 py-4 rounded-xl bg-slate-50 dark:bg-slate-900/50 border-2 border-slate-100 dark:border-slate-700 focus:outline-hidden focus:border-indigo-600 dark:focus:border-indigo-500 placeholder-transparent transition-all outline-none"
-                                    placeholder="Name"
+                                    className="w-full px-5 py-4 rounded-xl bg-[#141a27] text-white border border-[#2a3246] focus:border-[#8b5cf6] focus:ring-1 focus:ring-[#8b5cf6] transition-all outline-none placeholder:text-slate-400 font-medium shadow-inner"
+                                    placeholder="Your Name"
                                 />
-                                <label
-                                    htmlFor="name"
-                                    className="absolute left-5 -top-2.5 bg-white dark:bg-slate-800 px-2 text-sm text-gray-500 dark:text-slate-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-4 peer-focus:-top-2.5 peer-focus:text-indigo-600 dark:peer-focus:text-indigo-400 peer-focus:text-sm font-medium rounded-md"
-                                >
-                                    Your Name
-                                </label>
                             </div>
-                            <div className="relative group">
+                            <div>
                                 <input
                                     type="email"
                                     id="email"
                                     required
                                     value={formState.email}
                                     onChange={handleChange}
-                                    className="peer w-full px-5 py-4 rounded-xl bg-slate-50 dark:bg-slate-900/50 border-2 border-slate-100 dark:border-slate-700 focus:outline-hidden focus:border-indigo-600 dark:focus:border-indigo-500 placeholder-transparent transition-all outline-none"
-                                    placeholder="Email"
+                                    className="w-full px-5 py-4 rounded-xl bg-[#141a27] text-white border border-[#2a3246] focus:border-[#8b5cf6] focus:ring-1 focus:ring-[#8b5cf6] transition-all outline-none placeholder:text-slate-400 font-medium shadow-inner"
+                                    placeholder="Your Email"
                                 />
-                                <label
-                                    htmlFor="email"
-                                    className="absolute left-5 -top-2.5 bg-white dark:bg-slate-800 px-2 text-sm text-gray-500 dark:text-slate-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-4 peer-focus:-top-2.5 peer-focus:text-indigo-600 dark:peer-focus:text-indigo-400 peer-focus:text-sm font-medium rounded-md"
-                                >
-                                    Your Email
-                                </label>
                             </div>
-                            <div className="relative group">
+                            <div>
                                 <textarea
                                     id="message"
                                     rows={5}
                                     required
                                     value={formState.message}
                                     onChange={handleChange}
-                                    className="peer w-full px-5 py-4 rounded-xl bg-slate-50 dark:bg-slate-900/50 border-2 border-slate-100 dark:border-slate-700 focus:outline-hidden focus:border-indigo-600 dark:focus:border-indigo-500 placeholder-transparent transition-all resize-none outline-none"
-                                    placeholder="Message"
+                                    className="w-full px-5 py-4 rounded-xl bg-[#141a27] text-white border border-[#2a3246] focus:border-[#8b5cf6] focus:ring-1 focus:ring-[#8b5cf6] transition-all outline-none resize-none placeholder:text-slate-400 font-medium shadow-inner"
+                                    placeholder="Your Message"
                                 ></textarea>
-                                <label
-                                    htmlFor="message"
-                                    className="absolute left-5 -top-2.5 bg-white dark:bg-slate-800 px-2 text-sm text-gray-500 dark:text-slate-400 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-4 peer-focus:-top-2.5 peer-focus:text-indigo-600 dark:peer-focus:text-indigo-400 peer-focus:text-sm font-medium rounded-md"
-                                >
-                                    Your Message
-                                </label>
                             </div>
                             <button
                                 type="submit"
-                                className="w-full py-4 bg-linear-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white text-lg rounded-xl font-bold shadow-lg shadow-indigo-600/30 hover:shadow-indigo-600/50 transition-all transform hover:-translate-y-1 active:scale-95 flex items-center justify-center space-x-2"
+                                className="w-full py-4 bg-gradient-to-r from-[#7c3aed] to-[#9333ea] hover:from-[#6d28d9] hover:to-[#7e22ce] text-white text-lg rounded-xl font-bold transition-all transform hover:scale-[1.02] active:scale-95 flex items-center justify-center space-x-2 shadow-lg shadow-purple-500/20"
                             >
                                 <span>Send Message</span>
-                                <FiMail className="inline-block text-xl" />
+                                <FiMail className="inline-block text-xl ml-1" />
                             </button>
                         </form>
                     </motion.div>

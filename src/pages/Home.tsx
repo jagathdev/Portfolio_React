@@ -4,12 +4,12 @@ import Banner from '../components/Banner';
 import About from '../components/About';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
-import Internship from '../components/Internship';
 import Certificates from '../components/Certificates';
 import Education from '../components/Education';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import ScrollToTop from '../components/ScrollToTop';
+import Experience from '../components/Experience';
 
 const Home: React.FC = () => {
     return (
@@ -20,7 +20,7 @@ const Home: React.FC = () => {
                 <About />
                 <Skills />
                 <Projects />
-                <Internship />
+                <Experience />
                 <Certificates />
                 <Education />
                 <Contact />

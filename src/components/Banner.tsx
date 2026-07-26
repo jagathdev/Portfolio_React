@@ -53,18 +53,22 @@ const Banner: React.FC = () => {
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-6 leading-tight text-gray-900 dark:text-white">
                         Hi, I’m <br />
                         <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-600 to-blue-500 dark:from-indigo-400 dark:to-blue-400">
-                            Jagath
+                            Jagath Ratchagan
                         </span>
                     </h1>
 
                     <div className="text-xl md:text-3xl font-semibold text-gray-700 dark:text-slate-300 mb-6 h-[40px] md:h-[60px] flex items-center justify-center lg:justify-start">I'm a&nbsp;
                         <TypeAnimation
                             sequence={[
-                                'Frontend Devloper',
+                                'React Developer',
                                 1500,
-                                'React Devloper',
+                                'Full Stack Developer',
                                 1500,
-                                'MERN Stack Devloper',
+                                'AI Developer',
+                                1500,
+                                'Frontend Developer',
+                                1500,
+                                'MERN Stack Developer',
                                 1500,
                             ]}
                             wrapper="span"
