@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaReact, FaNodeJs, FaBootstrap, FaRocket, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub } from 'react-icons/fa';
-import { SiTypescript, SiTailwindcss, SiJavascript, SiExpress, SiMongodb, SiCanva, SiMui } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaBootstrap, FaRocket, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub, FaRobot } from 'react-icons/fa';
+import { SiTypescript, SiTailwindcss, SiJavascript, SiExpress, SiMongodb, SiCanva, SiMui, SiVercel, SiRender, SiRailway, SiNetlify, SiOpenai, SiGooglegemini } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 
 const skillCategories = [
@@ -14,6 +14,7 @@ const skillCategories = [
             { name: 'Tailwind CSS', icon: <SiTailwindcss size={32} className="text-[#06B6D4]" /> },
             { name: 'Bootstrap', icon: <FaBootstrap size={32} className="text-[#7952B3]" /> },
             { name: 'JavaScript (ES6+)', icon: <SiJavascript size={32} className="text-[#F7DF1E]" /> },
+            { name: 'TypeScript', icon: <SiTypescript size={32} className="text-[#3178C6]" /> },
             { name: 'React', icon: <FaReact size={32} className="text-[#61DAFB]" />, highlight: true },
             { name: 'Node.js', icon: <FaNodeJs size={32} className="text-[#339933]" /> },
             { name: 'Express.js', icon: <SiExpress size={32} className="text-gray-500 dark:text-gray-300" /> },
@@ -33,13 +34,33 @@ const skillCategories = [
         ]
     },
     {
-        title: "Learning & Basics",
-        description: "Focus areas for growth.",
+        title: "Cloud & Deployment",
+        description: "Where my apps live.",
         skills: [
-            { name: 'TypeScript', icon: <SiTypescript size={32} className="text-[#3178C6]" />, level: 'Basics' },
-            // { name: 'Next.js', icon: <SiNextdotjs size={32} className="text-black dark:text-white" />, level: 'Basics' },
+            { name: 'Vercel', icon: <SiVercel size={32} className="text-black dark:text-white" /> },
+            { name: 'Render', icon: <SiRender size={32} className="text-[#46E3B7]" /> },
+            { name: 'Railway', icon: <SiRailway size={32} className="text-black dark:text-white" /> },
+            { name: 'Netlify', icon: <SiNetlify size={32} className="text-[#00C7B7]" /> },
         ]
-    }
+    },
+    {
+        title: "AI Tools",
+        description: "Accelerating development.",
+        skills: [
+            { name: 'ChatGPT', icon: <SiOpenai size={32} className="text-[#412991] dark:text-[#74AA9C]" /> },
+            { name: 'Gemini', icon: <SiGooglegemini size={32} className="text-[#8E75B2]" /> },
+            { name: 'Claude', icon: <FaRobot size={32} className="text-[#D97757]" /> },
+            { name: 'Groq', icon: <FaRobot size={32} className="text-orange-500" /> },
+        ]
+    },
+    // {
+    //     title: "Learning & Basics",
+    //     description: "Focus areas for growth.",
+    //     skills: [
+
+    //         // { name: 'Next.js', icon: <SiNextdotjs size={32} className="text-black dark:text-white" />, level: 'Basics' },
+    //     ]
+    // }
 ];
 
 const Skills: React.FC = () => {
